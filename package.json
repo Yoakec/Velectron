@@ -2,7 +2,7 @@
   "name": "electron-vue-vite",
   "version": "1.0.0",
   "main": "dist/main/index.cjs",
-  "author": "草鞋没号 <308487730@qq.com>",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "node scripts/watch.mjs",
@@ -39,5 +39,15 @@
     "vite",
     "vue3",
     "vue"
-  ]
+  ],
+  "dependencies": {
+    "@iconify-json/ic": "^1.1.4",
+    "@unocss/preset-attributify": "^0.38.1",
+    "@unocss/preset-icons": "^0.38.1",
+    "@unocss/preset-uno": "^0.38.1",
+    "@vueuse/core": "^8.6.0",
+    "unocss": "^0.38.1",
+    "unplugin-auto-import": "^0.8.7",
+    "unplugin-vue-components": "^0.19.6"
+  }
 }
